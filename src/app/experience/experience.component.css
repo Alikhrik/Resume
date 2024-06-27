@@ -1,0 +1,27 @@
+.experience {
+    background-color: rgba(211, 211, 211, 0.5);
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: inline-flex;
+}
+
+.experience__header {
+    text-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+}
+.experience__title {
+}
+
+.experience_period {
+    color: gray;
+    font-weight: 500;
+}
+
+.experience__description {
+    padding: 5px;
+    border-left: 1px solid gray;
+}
