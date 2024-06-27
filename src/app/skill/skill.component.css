@@ -1,0 +1,36 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    border: 1px solid black;
+}
+
+.skill__header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+.skill__title {
+    padding-left: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    color: black;
+}
+
+.skill__description {
+    padding: 10px;
+}
+
+.skill__certificate {
+    color: cadetblue;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+.skill__header:hover > .skill__certificate {
+    color: blue;
+}
