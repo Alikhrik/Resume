@@ -2,9 +2,13 @@
     border: 1px solid black;
     padding: 10px;
     display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.person__info {
+    display: flex;
     flex-direction: column;
 }
-
 .person__full-name {
     font-size: x-large;
 }
@@ -23,10 +27,13 @@
 
 .person__experience {
     margin-block: 5px;
-    margin-right: 10px;
 }
 
 .person__skill {
     margin-block: 5px;
     margin-right: 10px;
+}
+
+.person__avatar {
+    width: 200px;
 }
