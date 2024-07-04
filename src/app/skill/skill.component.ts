@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './skill.component.css'
 })
 export class SkillComponent {
-
+  Title:String = ".net";
+  CertificateTitle:String = "Certificate";
+  CertificateUrl:String = "#";
+  Description:String = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolores?";
 }

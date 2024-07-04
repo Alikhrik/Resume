@@ -1,10 +1,10 @@
 <div class="person">
     <div class="person__info">
-        <span class="person__full-name">Denys Tkachenko</span>
-        <span class="person__phone-number">+380123456789</span>
-        <span class="person__city">Odesa</span>
+        <span class="person__full-name">{{FirstName}} {{LastName}}</span>
+        <span class="person__phone-number">{{PhoneNumber}}</span>
+        <span class="person__city">{{City}}</span>
     </div>
-    <img src="avatar.jpg" alt="Avatar" title="Avatar" class="person__avatar">
+    <img [src]="AvatarUrl" alt="Avatar" title="Avatar" class="person__avatar">
 </div>
 <app-experience class="person__experience"></app-experience>
 <div style="display: flex;">
